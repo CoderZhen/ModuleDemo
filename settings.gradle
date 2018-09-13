@@ -1,1 +1,1 @@
-include ':App', ':OpenSourceLibrary', ':Module_Base', ':Module_Home', ':Module_Main'
+include ':App', ':OpenSourceLibrary', ':Module_Base', ':Module_Home', ':Module_Main', ':Module_User', ':Module_Find'

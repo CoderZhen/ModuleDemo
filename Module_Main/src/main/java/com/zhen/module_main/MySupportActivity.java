@@ -4,7 +4,7 @@ import com.zhen.module_base.base.BaseDelegate;
 import com.zhen.module_base.base.ProxyActivity;
 import com.zhen.module_base.splash.SplashDelegate;
 
-public class SupportActivity extends ProxyActivity{
+public class MySupportActivity extends ProxyActivity{
 
     @Override
     protected BaseDelegate setRootDelegate() {

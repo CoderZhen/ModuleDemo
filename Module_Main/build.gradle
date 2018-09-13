@@ -17,12 +17,28 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = [AROUTER_MODULE_NAME: project.getName()]
+            }
+        }
+
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets{
+        main{
+            if(isApp.toBoolean()){
+                manifest.srcFile 'src/main/debug/AndroidManifest.xml'
+            }else{
+                manifest.srcFile 'src/main/release/AndroidManifest.xml'
+            }
         }
     }
 
@@ -34,9 +50,12 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    annotationProcessor 'com.alibaba:arouter-compiler:1.2.1'
     if (isApp.toBoolean()) {
         api project(':Module_Base')
     } else {
         api project(':Module_Home')
+        api project(':Module_User')
+        api project(':Module_Find')
     }
 }

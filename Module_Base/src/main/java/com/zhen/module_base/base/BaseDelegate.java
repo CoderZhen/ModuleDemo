@@ -1,6 +1,7 @@
 package com.zhen.module_base.base;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -42,6 +43,10 @@ public abstract class BaseDelegate extends Fragment implements ISupportFragment 
         BindView(savedInstanceState, rootView);
         onEvent();
         return rootView;
+    }
+
+    protected ProxyActivity getProxyActivity(){
+        return (ProxyActivity) _mActivity;
     }
 
     @Override
