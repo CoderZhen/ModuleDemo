@@ -1,0 +1,43 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:2:5-35
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+		ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+		ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:1-10:12
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:1:11-69
+application
+ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:4:5-8:19
+activity#com.zhen.module_main.MySupportActivity
+ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:5:9-7:20
+	android:name
+		ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml:5:19-52
+uses-sdk
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+		ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+		ADDED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
+		INJECTED from E:\Android_Studio\ModuleDemo\Module_Main\src\main\release\AndroidManifest.xml
