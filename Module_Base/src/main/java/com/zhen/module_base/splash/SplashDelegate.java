@@ -3,6 +3,7 @@ package com.zhen.module_base.splash;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.AppCompatButton;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -24,6 +25,7 @@ import io.reactivex.functions.Function;
 import io.reactivex.schedulers.Schedulers;
 
 public class SplashDelegate extends Delegate implements View.OnClickListener {
+    private static final String TAG = "SplashDelegate-vv";
 
     private CompositeDisposable mDisposable = new CompositeDisposable();
 

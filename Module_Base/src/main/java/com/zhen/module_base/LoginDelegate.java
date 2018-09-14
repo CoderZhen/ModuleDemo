@@ -6,16 +6,19 @@ import android.support.design.widget.TextInputLayout;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatEditText;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.zhen.module_base.base.Delegate;
 import com.zhen.module_base.utils.RouterUtils;
 import com.zhen.module_base.utils.SharedUtils;
 
 @Route(path = RouterUtils.LOGIN)
 public class LoginDelegate extends Delegate implements View.OnClickListener {
+    private static final String TAG = "LoginDelegate-vv";
 
     private AppCompatButton btn_login;
     private TextInputLayout til_account, til_password;
@@ -50,7 +53,6 @@ public class LoginDelegate extends Delegate implements View.OnClickListener {
             til_password.setErrorEnabled(false);
 
             if (checkAccount(account) && checkPassWord(password)) {
-                Toast.makeText(_mActivity, "登录成功", Toast.LENGTH_SHORT).show();
                 SharedUtils.getInstance().setLoginStatus(true);
                 startWithPop(RouterUtils.getMainDelegate());
             }
@@ -82,5 +84,11 @@ public class LoginDelegate extends Delegate implements View.OnClickListener {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy: ");
     }
 }

@@ -27,5 +27,4 @@ public class SharedUtils {
     public boolean getLoginStatus() {
         return SP.getBoolean(SharedKey.Login, false);
     }
-
 }

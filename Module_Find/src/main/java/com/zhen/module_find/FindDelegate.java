@@ -5,8 +5,9 @@ import android.support.annotation.Nullable;
 import android.view.View;
 
 import com.zhen.module_base.base.Delegate;
+import com.zhen.module_base.bottom.BottomItemDelegate;
 
-public class FindDelegate extends Delegate{
+public class FindDelegate extends BottomItemDelegate{
 
     @Override
     protected Object setLayout() {
